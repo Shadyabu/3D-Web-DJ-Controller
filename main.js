@@ -180,7 +180,7 @@ if ( WebGL.isWebGLAvailable() ) {
         if (timeOut){
             setTimeout(function() {
                 document.body.removeChild(popupDiv);
-            }, 8000);
+            }, 10000);
         }
         return popupDiv;
     }
